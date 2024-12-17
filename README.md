@@ -15,27 +15,48 @@ Use the following command to clone the repository:
 
 ```bash
 git clone https://github.com/taheralmighty/LangChainProjects.git
+```
 
 **Navigate into the project directory:**
-cd repo-name
 
-**2. Create A Virtual Env**
+```bash
+cd LangChainProjects
+```
+
+### **2. Create A Virtual Environment**
+
+Create a virtual environment:
+
+```bash
 python -m venv venv
-venv\Scripts\activate
+```
 
-**3. Install Dependencies**
+Activate the virtual environment:
+
+```bash
+venv\Scripts\activate
+```
+
+### **3. Install Dependencies**
+
 Once the virtual environment is activated, install the required packages:
 
+```bash
 pip install -r requirements.txt
+```
 
-**4. Run the Project**
+### **4. Run the Project**
+
 Run the relevant Python scripts to explore the projects. For example:
 
-python script_name.py 
+```bash
+python script_name.py
+```
 
-or if it is a streamlit script then,
+If it’s a Streamlit script, use:
 
+```bash
 streamlit run script_name.py
-
+```
 
 I am using Python v3.11.9.
