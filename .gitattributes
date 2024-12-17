@@ -1,0 +1,11 @@
+# Use LF for all files
+* text=auto eol=lf
+
+# Use CRLF for Windows-specific scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Ensure Jupyter Notebooks and configuration files use LF
+*.ipynb text eol=lf
+*.toml text eol=lf
+*.css text eol=lf

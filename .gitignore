@@ -1,0 +1,21 @@
+# Exclude environment files
+.env
+
+# Exclude Python virtual environment folder
+venv/
+env/
+LangchainTraining/
+
+# Exclude any __pycache__ directories (Python compiled files)
+__pycache__/
+
+# Exclude log files
+*.log
+
+# Exclude temporary files
+*.tmp
+*.temp
+
+# Exclude system files
+.DS_Store
+Thumbs.db
